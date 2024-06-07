@@ -49,7 +49,7 @@ namespace cs0607
             if ((fpos.X > label1.Left)
                 && (fpos.X < label1.Right)
                 && (fpos.Y > label1.Top)
-                && (fpos.Y < label1.Bottom)
+                && (fpos.Y < label1.Bottom))
             {
                 timer1.Enabled = false;
             }
